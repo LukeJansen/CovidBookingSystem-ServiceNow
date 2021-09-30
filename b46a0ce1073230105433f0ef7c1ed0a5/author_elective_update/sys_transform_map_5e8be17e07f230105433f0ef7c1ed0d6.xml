@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Import Bookings from Excel</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_687885_covid_tes_bookings_excel</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-28 13:20:39</sys_created_on>
+        <sys_id>5e8be17e07f230105433f0ef7c1ed0d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import Bookings from Excel</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_transform_map_5e8be17e07f230105433f0ef7c1ed0d6</sys_update_name>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-28 13:20:39</sys_updated_on>
+        <target_table>x_687885_covid_tes_bookings</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</application>
+        <file_path/>
+        <instance_id>d9bd8b05dbef77c049eac597059619c7</instance_id>
+        <instance_name>dev92533</instance_name>
+        <name>sys_transform_map_5e8be17e07f230105433f0ef7c1ed0d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Import Bookings from Excel&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_687885_covid_tes_bookings_excel&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hari.jeyakumar&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-28 13:20:39&lt;/sys_created_on&gt;&lt;sys_id&gt;5e8be17e07f230105433f0ef7c1ed0d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Import Bookings from Excel&lt;/sys_name&gt;&lt;sys_package display_value="Covid Test Booking" source="x_687885_covid_tes"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Covid Test Booking"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_5e8be17e07f230105433f0ef7c1ed0d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hari.jeyakumar&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-28 13:20:39&lt;/sys_updated_on&gt;&lt;target_table&gt;x_687885_covid_tes_bookings&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-17746312</payload_hash>
+        <record_name>Import Bookings from Excel</record_name>
+        <reverted_from/>
+        <source>596a0ce1073230105433f0ef7c1ed0a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-28 13:20:39</sys_created_on>
+        <sys_id>1d3ce57e07f230105433f0ef7c1ed0a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c2c907ee80000001</sys_recorded_at>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-28 13:20:39</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>553ce57ea6f23010a34e88ed7e5029a0</update_guid>
+        <update_guid_history>553ce57ea6f23010a34e88ed7e5029a0:-17746312</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-28 13:33:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>9bbd3ef3c0ad4665ba27206ddc449479</sys_id>
+        <sys_metadata>5e8be17e07f230105433f0ef7c1ed0d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import Bookings from Excel</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_scope_delete display_value="">5aba57fe953645728975a85bab3a9c24</sys_scope_delete>
+        <sys_update_name>sys_transform_map_5e8be17e07f230105433f0ef7c1ed0d6</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_5e8be17e07f230105433f0ef7c1ed0d6">1d3ce57e07f230105433f0ef7c1ed0a0</sys_update_version>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-28 13:33:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

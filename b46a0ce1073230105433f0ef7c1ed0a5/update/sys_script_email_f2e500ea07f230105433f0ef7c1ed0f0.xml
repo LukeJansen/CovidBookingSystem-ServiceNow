@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>formatDate</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+	
+	var unformattedDate = current.test_date.toString();
+	
+	var dateObj =  new GlideDate();
+	dateObj.setValue(unformattedDate.slice(0, 10));
+	var dateTimeObj =  new GlideDateTime();
+	dateTimeObj.setValue(unformattedDate.slice(0, 19));
+
+	var date = dateObj.getByFormat('MM-dd-yyyy');
+	var time = dateTimeObj.getTime().getByFormat('hh:mm:ss');
+	template.print(date + " at " + time);
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-27 11:57:44</sys_created_on>
+        <sys_id>f2e500ea07f230105433f0ef7c1ed0f0</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>formatDate</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_script_email_f2e500ea07f230105433f0ef7c1ed0f0</sys_update_name>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-27 13:29:41</sys_updated_on>
+    </sys_script_email>
+</record_update>

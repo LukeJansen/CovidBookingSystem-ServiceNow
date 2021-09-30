@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_687885_covid_tes.bookings_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>bookings_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-24 09:07:25</sys_created_on>
+        <sys_id>7ceb4465073230105433f0ef7c1ed01b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_687885_covid_tes.bookings_user</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_user_role_7ceb4465073230105433f0ef7c1ed01b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-24 09:07:25</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</application>
+        <file_path/>
+        <instance_id>d9bd8b05dbef77c049eac597059619c7</instance_id>
+        <instance_name>dev92533</instance_name>
+        <name>sys_user_role_7ceb4465073230105433f0ef7c1ed01b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_687885_covid_tes.bookings_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>bookings_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-24 09:07:25</sys_created_on><sys_id>7ceb4465073230105433f0ef7c1ed01b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_687885_covid_tes.bookings_user</sys_name><sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package><sys_policy/><sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope><sys_update_name>sys_user_role_7ceb4465073230105433f0ef7c1ed01b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-24 09:07:25</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1135681273</payload_hash>
+        <record_name>x_687885_covid_tes.bookings_user</record_name>
+        <reverted_from/>
+        <source>596a0ce1073230105433f0ef7c1ed0a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-24 09:07:25</sys_created_on>
+        <sys_id>30eb0865073230105433f0ef7c1ed0c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c170f35e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-24 09:07:25</sys_updated_on>
+        <type>Role</type>
+        <update_guid>78eb0865183230109160140ab67d6bc5</update_guid>
+        <update_guid_history>78eb0865183230109160140ab67d6bc5:1135681273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_687885_covid_tes.bookings_user">27f4012907f230105433f0ef7c1ed076</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-24 13:16:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>17ead00d18a649e98342c92dc7b27069</sys_id>
+        <sys_metadata>7ceb4465073230105433f0ef7c1ed01b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_687885_covid_tes.bookings_user</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_scope_delete display_value="">5aba57fe953645728975a85bab3a9c24</sys_scope_delete>
+        <sys_update_name>sys_user_role_7ceb4465073230105433f0ef7c1ed01b</sys_update_name>
+        <sys_update_version display_value="sys_user_role_7ceb4465073230105433f0ef7c1ed01b">30eb0865073230105433f0ef7c1ed0c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-24 13:16:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

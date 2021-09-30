@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Locations" max_length="40" name="x_687885_covid_tes_locations" sizeclass="12" type="collection">
+        <element label="City" max_length="30" name="city" type="string"/>
+        <element display="true" label="Location" max_length="30" name="location" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>user</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Make all fields read only</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	g_form.setReadonly('symptoms',true);
+  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-27 09:17:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fb8ab9207b230105433f0ef7c1ed043</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Make all fields read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_script_client_6fb8ab9207b230105433f0ef7c1ed043</sys_update_name>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-27 09:41:17</sys_updated_on>
+        <table>x_687885_covid_tes_bookings</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</application>
+        <file_path/>
+        <instance_id>d9bd8b05dbef77c049eac597059619c7</instance_id>
+        <instance_name>dev92533</instance_name>
+        <name>sys_script_client_6fb8ab9207b230105433f0ef7c1ed043</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;user&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Make all fields read only&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	g_form.setReadonly('symptoms',true);
+  
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;hari.jeyakumar&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-27 09:17:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6fb8ab9207b230105433f0ef7c1ed043&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make all fields read only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Covid Test Booking" source="x_687885_covid_tes"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Covid Test Booking"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6fb8ab9207b230105433f0ef7c1ed043&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;hari.jeyakumar&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-27 09:41:17&lt;/sys_updated_on&gt;&lt;table&gt;x_687885_covid_tes_bookings&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>941400164</payload_hash>
+        <record_name>Make all fields read only</record_name>
+        <reverted_from/>
+        <source>596a0ce1073230105433f0ef7c1ed0a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-27 09:41:17</sys_created_on>
+        <sys_id>1660bf1a07b230105433f0ef7c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c26a14a950000001</sys_recorded_at>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-27 09:41:17</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>5e60bf1ae3b230101a39847b7a8a2dc7</update_guid>
+        <update_guid_history>5e60bf1ae3b230101a39847b7a8a2dc7:941400164,b69feb963cb2301036fb39cc088e9497:-1069956160,110be71644b23010ed6818e7401f1795:-1997035403</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-27 13:51:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4e614a3920864038a4ea46681cc20c40</sys_id>
+        <sys_metadata>6fb8ab9207b230105433f0ef7c1ed043</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make all fields read only</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_parent display_value="Bookings">34ea8825073230105433f0ef7c1ed039</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_scope_delete display_value="">5aba57fe953645728975a85bab3a9c24</sys_scope_delete>
+        <sys_update_name>sys_script_client_6fb8ab9207b230105433f0ef7c1ed043</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6fb8ab9207b230105433f0ef7c1ed043">1660bf1a07b230105433f0ef7c1ed0c8</sys_update_version>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-27 13:51:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

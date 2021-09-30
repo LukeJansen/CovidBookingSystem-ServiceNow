@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">69ef4fcf077630105433f0ef7c1ed04d</sp_column>
+        <sp_widget display_value="CAB Workbench - Form Widget">3e9d0792db1022004d27b31be0b8f5af</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-29 15:23:02</sys_created_on>
+        <sys_id>8cd15f0307b630105433f0ef7c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sp_instance_8cd15f0307b630105433f0ef7c1ed018</sys_update_name>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-29 15:23:02</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=8cd15f0307b630105433f0ef7c1ed018"/>
+</record_update>

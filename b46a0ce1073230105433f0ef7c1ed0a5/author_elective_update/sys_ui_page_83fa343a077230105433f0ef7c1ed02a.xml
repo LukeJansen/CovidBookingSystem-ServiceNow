@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[function yes(){
+	var gm = GlideModal.get(this);
+	jslog(gm);
+	alert("Yes");
+}
+
+function no(){
+	alert("No");
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_687885_covid_tes_SymptomCheckModal.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<p>Have you shown any of the following symptoms in the past 7 days?</p>
+	<ul>
+		<li>High Temperature</li>
+		<li>New and Continuous Cough </li>
+		<li>Loss of Sense of Smell or Taste</li>
+	</ul>
+	<div style="float:right;">
+		<button style="width:100px" onclick="yes()">Yes</button>
+		<button style="width:100px" onclick="no()">No</button>
+	</div>
+</j:jelly>]]></html>
+        <name>SymptomCheckModal</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-28 09:46:09</sys_created_on>
+        <sys_id>83fa343a077230105433f0ef7c1ed02a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>SymptomCheckModal</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_ui_page_83fa343a077230105433f0ef7c1ed02a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-28 10:07:00</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</application>
+        <file_path/>
+        <instance_id>d9bd8b05dbef77c049eac597059619c7</instance_id>
+        <instance_name>dev92533</instance_name>
+        <name>sys_ui_page_83fa343a077230105433f0ef7c1ed02a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function yes(){
+	var gm = GlideModal.get(this);
+	jslog(gm);
+	alert("Yes");
+}
+
+function no(){
+	alert("No");
+}]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_687885_covid_tes_SymptomCheckModal.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;p&gt;Have you shown any of the following symptoms in the past 7 days?&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;High Temperature&lt;/li&gt;
+		&lt;li&gt;New and Continuous Cough &lt;/li&gt;
+		&lt;li&gt;Loss of Sense of Smell or Taste&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;div style="float:right;"&gt;
+		&lt;button style="width:100px" onclick="yes()"&gt;Yes&lt;/button&gt;
+		&lt;button style="width:100px" onclick="no()"&gt;No&lt;/button&gt;
+	&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;SymptomCheckModal&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-28 09:46:09&lt;/sys_created_on&gt;&lt;sys_id&gt;83fa343a077230105433f0ef7c1ed02a&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;SymptomCheckModal&lt;/sys_name&gt;&lt;sys_package display_value="Covid Test Booking" source="x_687885_covid_tes"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Covid Test Booking"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_83fa343a077230105433f0ef7c1ed02a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-28 10:07:00&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>488985248</payload_hash>
+        <record_name>SymptomCheckModal</record_name>
+        <reverted_from/>
+        <source>596a0ce1073230105433f0ef7c1ed0a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-28 10:07:01</sys_created_on>
+        <sys_id>70efb8fa077230105433f0ef7c1ed0a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c2bdf359e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-28 10:07:01</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>b8efb8faca723010e59f6ea0f2dceaa0</update_guid>
+        <update_guid_history>b8efb8faca723010e59f6ea0f2dceaa0:488985248,be2ef0baa97230108bda909913ddb09d:1269549817,166d30bada7230103807d5dd49bd7e8a:2094517168,c05d30ba337230108858f075b96fe080:-181073232,6ddcb47ace7230105b74b144a8fbf708:-1866464112,385c347aef723010e8c84b4b2d00697c:1851400992,ae3c7c3a6c723010c9b93ea948991c74:-1607938606,071c7c3a82723010eb8737f44e406529:-281671745,9eebbc3a8672301096dd2cee7690a2fc:849156961,06db7c3a61723010818ee31183b1926e:-748676047,d8bb3c3ab77230106e6de5cd72c2c399:-1035408110,5e5b383a21723010246b5e747d76e616:-1666259477,db1b7cf6cb723010fdbd31253f9ac021:191768065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-28 13:04:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>2880b683d4824b5a8c851aee68576144</sys_id>
+        <sys_metadata>83fa343a077230105433f0ef7c1ed02a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SymptomCheckModal</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_scope_delete display_value="">5aba57fe953645728975a85bab3a9c24</sys_scope_delete>
+        <sys_update_name>sys_ui_page_83fa343a077230105433f0ef7c1ed02a</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_83fa343a077230105433f0ef7c1ed02a">70efb8fa077230105433f0ef7c1ed0a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-28 13:04:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

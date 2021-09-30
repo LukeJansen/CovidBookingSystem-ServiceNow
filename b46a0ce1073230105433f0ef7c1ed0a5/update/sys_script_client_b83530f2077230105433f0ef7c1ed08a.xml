@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>user</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Bookings symptom check</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	if (g_form.isNewRecord()){
+		
+		var gm = new GlideModal("", true);
+		gm.setTitle('Covid Symptom Check'); 
+		
+		gm.renderWithContent('<div style="padding:15px"><p>Have you shown any of the following symptoms in the past 7 days?</p><ul><li>High Temperature</li><li>New and Continuous Cough </li><li>Loss of Sense of Smell or Taste</li></ul><div style="float:right;"><button style="width:100px" onclick="top.symptomCheck(true)">Yes</button><button style="width:100px" onclick="top.symptomCheck(false)">No</button></div></div>'); 
+		
+		top.redirect = function(){
+			gm.destroy();
+			location.href = "x_687885_covid_tes_bookings_list.do?sysparm_query=userDYNAMIC90d1921e5f510100a9ad2572f2b477fe&sysparm_view=";
+		};
+		
+		top.symptomCheck = function(answer){
+			gm.destroy();
+			if(!answer){
+				gm.renderWithContent('<div style="padding:15px"><p>Sorry only users showing symptoms in the past 7 days can use this booking system.</p><div style="float:right;"><button style="width:100px" onclick="top.redirect()">Ok</button></div></div>');
+			}
+			else{
+				g_form.setValue("symptoms", "Yes");
+				g_form.setReadOnly("symptoms", true);
+			}
+		};
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-28 09:31:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b83530f2077230105433f0ef7c1ed08a</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Bookings symptom check</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_script_client_b83530f2077230105433f0ef7c1ed08a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 14:05:57</sys_updated_on>
+        <table>x_687885_covid_tes_bookings</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

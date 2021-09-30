@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>calendar-check-o</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Book a new COVID-19 test</short_description>
+        <size>md</size>
+        <sp_column display_value="1">69dd7b5f073630105433f0ef7c1ed050</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-30 13:14:36</sys_created_on>
+        <sys_id>d80e339f073630105433f0ef7c1ed03e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Book a Test</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sp_instance_link_d80e339f073630105433f0ef7c1ed03e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 13:46:09</sys_updated_on>
+        <title>Book a Test</title>
+        <type>url</type>
+        <url>ctb?id=ctb_new&amp;table=x_687885_covid_tes_bookings</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=d80e339f073630105433f0ef7c1ed03e"/>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Change the  Emergency Contact Phone Number field based on the Emergency Contact selection</description>
+        <field>emergency_contact</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Bookings set Emergency Number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue === '' || newValue == oldValue) {
+        return;
+    }
+
+    // Instantiate the GetPhoneNumber Script Include 
+    var getNumber = new GlideAjax('GetPhoneNumber');
+    // Specify the getNumber method
+    getNumber.addParam('sysparm_name', 'getNumber');
+    // Pass the Requested for sys_id
+    getNumber.addParam('sysparm_userID', g_form.getValue('emergency_contact'));
+    // Send the request to the server
+    getNumber.getXML(populateNumberField);
+
+
+    // When the response is back from the server
+    function populateNumberField(response) {
+        
+		var numberFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		
+		if (numberFromScriptInclude === ""){
+			g_form.clearValue('emergency_contact_phone_number');
+			var msg = "No number found for this contact, please enter manually";
+			g_form.showFieldMsg("emergency_contact_phone_number", msg, "info");
+			
+		} else{
+			g_form.clearValue('emergency_contact_phone_number');
+			// remove non-numeric characters
+			var emergency_number = numberFromScriptInclude.replace(/\D/g,'');
+			g_form.setValue('emergency_contact_phone_number', emergency_number);
+		}
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hari.jeyakumar</sys_created_by>
+        <sys_created_on>2021-09-27 14:07:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1b92ce6077630105433f0ef7c1ed01e</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Bookings set Emergency Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_script_client_f1b92ce6077630105433f0ef7c1ed01e</sys_update_name>
+        <sys_updated_by>hari.jeyakumar</sys_updated_by>
+        <sys_updated_on>2021-09-30 10:48:36</sys_updated_on>
+        <table>x_687885_covid_tes_bookings</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

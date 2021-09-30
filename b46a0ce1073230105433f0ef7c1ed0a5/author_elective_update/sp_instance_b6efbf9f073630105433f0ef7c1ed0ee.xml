@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">afcff3df073630105433f0ef7c1ed0cb</sp_column>
+        <sp_widget display_value="Form">fd1f4ec347730200ba13a5554ee490c0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-30 13:22:58</sys_created_on>
+        <sys_id>b6efbf9f073630105433f0ef7c1ed0ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sp_instance_b6efbf9f073630105433f0ef7c1ed0ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 13:23:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"disableUIActions": {
+		"value": "",
+		"displayValue": ""
+	},
+	"showFormView": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"omitHeaderOptions": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b6efbf9f073630105433f0ef7c1ed0ee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</application>
+        <file_path/>
+        <instance_id>d9bd8b05dbef77c049eac597059619c7</instance_id>
+        <instance_name>dev92533</instance_name>
+        <name>sp_instance_b6efbf9f073630105433f0ef7c1ed0ee</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;afcff3df073630105433f0ef7c1ed0cb&lt;/sp_column&gt;&lt;sp_widget display_value="Form"&gt;fd1f4ec347730200ba13a5554ee490c0&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-30 13:22:58&lt;/sys_created_on&gt;&lt;sys_id&gt;b6efbf9f073630105433f0ef7c1ed0ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Covid Test Booking" source="x_687885_covid_tes"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Covid Test Booking"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_b6efbf9f073630105433f0ef7c1ed0ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-30 13:23:46&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"disableUIActions": {
+		"value": "",
+		"displayValue": ""
+	},
+	"showFormView": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"omitHeaderOptions": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b6efbf9f073630105433f0ef7c1ed0ee"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1019619338</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>596a0ce1073230105433f0ef7c1ed0a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-30 13:23:46</sys_created_on>
+        <sys_id>62108cef073630105433f0ef7c1ed0d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c36e011820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 13:23:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>aa108cefa8363010719d235a29cabcd6</update_guid>
+        <update_guid_history>aa108cefa8363010719d235a29cabcd6:1019619338,b2efbf9f82363010476d79aff75760f0:-140981006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5766d46307b630105433f0ef7c1ed05f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-30 15:01:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2338d37e60944654861e6d03ee3b2199</sys_id>
+        <sys_metadata>b6efbf9f073630105433f0ef7c1ed0ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_scope_delete display_value="">5aba57fe953645728975a85bab3a9c24</sys_scope_delete>
+        <sys_update_name>sp_instance_b6efbf9f073630105433f0ef7c1ed0ee</sys_update_name>
+        <sys_update_version display_value="sp_instance_b6efbf9f073630105433f0ef7c1ed0ee">62108cef073630105433f0ef7c1ed0d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 15:01:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

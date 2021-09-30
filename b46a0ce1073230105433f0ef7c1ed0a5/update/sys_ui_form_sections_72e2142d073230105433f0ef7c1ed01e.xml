@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="72e2142d073230105433f0ef7c1ed01e" sys_domain="global" table="x_687885_covid_tes_bookings" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-24 09:38:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fee2142d073230105433f0ef7c1ed020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_687885_covid_tes_bookings" name="x_687885_covid_tes_bookings" sys_domain="global" view="Default view">72e2142d073230105433f0ef7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Covid Test Booking" display_value="Covid Test Booking" name="x_687885_covid_tes_bookings" sys_domain="global" view="Default view">458294e9073230105433f0ef7c1ed0e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-24 09:38:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-30 09:50:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>654f075b07b230105433f0ef7c1ed0a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_687885_covid_tes_bookings" name="x_687885_covid_tes_bookings" sys_domain="global" view="Default view">72e2142d073230105433f0ef7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Test Details" display_value="Test Details" name="x_687885_covid_tes_bookings" sys_domain="global" view="Default view">e54f075b07b230105433f0ef7c1ed0a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-30 09:50:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-30 09:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41eecf1b07b230105433f0ef7c1ed038</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_687885_covid_tes_bookings" name="x_687885_covid_tes_bookings" sys_domain="global" view="Default view">72e2142d073230105433f0ef7c1ed01e</sys_ui_form>
+            <sys_ui_section caption="Test Results" display_value="Test Results" name="x_687885_covid_tes_bookings" sys_domain="global" view="Default view">85eecf1b07b230105433f0ef7c1ed036</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-30 09:50:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_687885_covid_tes_bookings</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-24 09:38:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72e2142d073230105433f0ef7c1ed01e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_687885_covid_tes_bookings</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_72e2142d073230105433f0ef7c1ed01e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-24 09:38:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

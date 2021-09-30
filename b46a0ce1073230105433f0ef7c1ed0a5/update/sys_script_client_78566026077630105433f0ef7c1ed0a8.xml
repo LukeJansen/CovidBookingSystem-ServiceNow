@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the city field to the user's location if there is a match.</description>
+        <field>user</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Bookings set user's location</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '' || !g_form.isNewRecord()) {
+		return;
+	}
+
+	var userID = g_form.getValue("user");
+
+	var GetUserLocation = new GlideAjax('GetUserLocation');
+	GetUserLocation.addParam("sysparm_name", 'getCity');
+	GetUserLocation.addParam("sysparm_userID", userID);
+	GetUserLocation.getXML(setCity);
+
+	function setCity(response){
+
+		var options = g_form.getElement("city").options;
+		var cities = [];
+
+		for (var i = 1; i < options.length; i++){
+			cities.push(options[i].value);
+		}
+
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+
+		if (cities.indexOf(answer) != -1){
+			g_form.setValue("city", answer, answer);
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-27 13:37:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78566026077630105433f0ef7c1ed0a8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Bookings set user's location</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_script_client_78566026077630105433f0ef7c1ed0a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 10:05:16</sys_updated_on>
+        <table>x_687885_covid_tes_bookings</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

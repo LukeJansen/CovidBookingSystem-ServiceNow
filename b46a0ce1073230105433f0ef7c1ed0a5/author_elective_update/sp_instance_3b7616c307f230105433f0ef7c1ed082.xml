@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">eb76164707f230105433f0ef7c1ed07a</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 11:03:53</sys_created_on>
+        <sys_id>3b7616c307f230105433f0ef7c1ed082</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sp_instance_3b7616c307f230105433f0ef7c1ed082</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 11:58:14</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1 style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Covid Test Booking</h1>",
+		"displayValue": "<h1 style=\"text-align: center;\">Covid Test Booking</h1>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3b7616c307f230105433f0ef7c1ed082"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</application>
+        <file_path/>
+        <instance_id>d9bd8b05dbef77c049eac597059619c7</instance_id>
+        <instance_name>dev92533</instance_name>
+        <name>sp_instance_3b7616c307f230105433f0ef7c1ed082</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;eb76164707f230105433f0ef7c1ed07a&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-29 11:03:53&lt;/sys_created_on&gt;&lt;sys_id&gt;3b7616c307f230105433f0ef7c1ed082&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Covid Test Booking" source="x_687885_covid_tes"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Covid Test Booking"&gt;b46a0ce1073230105433f0ef7c1ed0a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3b7616c307f230105433f0ef7c1ed082&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-29 11:58:14&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h1 style=\"text-align: center;\" data-mce-style=\"text-align: center;\"&gt;Covid Test Booking&lt;/h1&gt;",
+		"displayValue": "&lt;h1 style=\"text-align: center;\"&gt;Covid Test Booking&lt;/h1&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3b7616c307f230105433f0ef7c1ed082"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-914315473</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>596a0ce1073230105433f0ef7c1ed0a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 11:58:14</sys_created_on>
+        <sys_id>ccf2668f07f230105433f0ef7c1ed0d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c316b656d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 11:58:14</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>08f2668ffdf2301060e7558d137e87d6</update_guid>
+        <update_guid_history>08f2668ffdf2301060e7558d137e87d6:-914315473,db865e07a0f230105a0dd523a91374ca:-687034574,ff7616c37ef23010374101db9d261f84:-282016229</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7399eac3073630105433f0ef7c1ed027</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 12:27:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>101a86d365ba453c82c0ed9821dc38a4</sys_id>
+        <sys_metadata>3b7616c307f230105433f0ef7c1ed082</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_scope_delete display_value="">5aba57fe953645728975a85bab3a9c24</sys_scope_delete>
+        <sys_update_name>sp_instance_3b7616c307f230105433f0ef7c1ed082</sys_update_name>
+        <sys_update_version display_value="sp_instance_3b7616c307f230105433f0ef7c1ed082">ccf2668f07f230105433f0ef7c1ed0d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:27:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

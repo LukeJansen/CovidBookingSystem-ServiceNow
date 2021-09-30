@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="bookings_excel" max_length="40" name="x_687885_covid_tes_bookings_excel" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Booked by" label="Booked by" max_length="40" name="u_booked_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Booked for" label="Booked for" max_length="40" name="u_booked_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Emergency Contact" label="Emergency Contact" max_length="40" name="u_emergency_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Emergency Contact Number" label="Emergency Contact Number" max_length="40" name="u_emergency_contact_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone Number" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Result" label="Result" max_length="40" name="u_result" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Symptoms in Past 7 days" label="Symptoms in Past 7 days" max_length="40" name="u_symptoms_in_past_7_days" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Test Date" label="Test Date" max_length="40" name="u_test_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Test Number" label="Test Number" max_length="40" name="u_test_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Test Self-booked" label="Test Self-booked" max_length="40" name="u_test_self_booked" type="string"/>
+    </element>
+</database>

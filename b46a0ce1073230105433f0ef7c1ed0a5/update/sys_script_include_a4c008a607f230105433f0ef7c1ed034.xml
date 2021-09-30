@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_687885_covid_tes.GetLocationCities</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Get all of the cities in the Location table.</description>
+        <name>GetLocationCities</name>
+        <script><![CDATA[var GetLocationCities = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetLocationCities.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+
+	getCities: function() {
+		var cities = [];
+		
+		var locationQuery = new GlideRecord("x_687885_covid_tes_locations");
+		locationQuery.query();
+		
+		while (locationQuery.next()){
+			var city = locationQuery.getValue("city");
+			if (cities.indexOf(city) == -1){
+				cities.push(city);
+			}
+		}
+		
+		//gs.addInfoMessage("Cities: " + cities.length + " : " + cities);
+		
+		return JSON.stringify(cities);
+	},
+	type: 'GetLocationCities'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-27 10:56:33</sys_created_on>
+        <sys_id>a4c008a607f230105433f0ef7c1ed034</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>GetLocationCities</sys_name>
+        <sys_package display_value="Covid Test Booking" source="x_687885_covid_tes">b46a0ce1073230105433f0ef7c1ed0a5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Covid Test Booking">b46a0ce1073230105433f0ef7c1ed0a5</sys_scope>
+        <sys_update_name>sys_script_include_a4c008a607f230105433f0ef7c1ed034</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-27 11:11:07</sys_updated_on>
+    </sys_script_include>
+</record_update>
